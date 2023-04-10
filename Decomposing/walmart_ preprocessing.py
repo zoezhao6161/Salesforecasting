@@ -14,8 +14,6 @@ print(df_tfs['IsHoliday'].unique())
 #turn type  ABC to numeric
 print(df_tfs['Type'].unique())
 
-le = preprocessing.LabelEncoder()
-le.fit(df_tfs['Type'].unique())
 
 le = preprocessing.LabelEncoder()
 le.fit(df_tfs['Type'].unique())
